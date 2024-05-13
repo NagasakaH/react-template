@@ -1,0 +1,13 @@
+services:
+  react:
+    image: devcontainer:react-template
+    build:
+      context: .
+    entrypoint: tail -F /dev/null
+    ports:
+      - 3000:3000
+    user: node
+    volumes:
+      - ../:/work
+    environment:
+      - BROWSER=none

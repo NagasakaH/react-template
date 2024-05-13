@@ -1,0 +1,28 @@
+{
+  "name": "React Development",
+  "dockerComposeFile": "./compose.yaml",
+  "service": "react",
+  "workspaceFolder": "/work",
+  "remoteUser": "node",
+  "postStartCommand": "npm install",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "editor.formatOnSaveMode": "modifications"
+      },
+      "extensions": [
+        "hediet.vscode-drawio",
+        "EditorConfig.EditorConfig",
+        "esbenp.prettier-vscode",
+        "eamodio.gitlens",
+        "oderwat.indent-rainbow",
+        "shd101wyy.markdown-preview-enhanced",
+        "joffreykern.markdown-toc",
+        "davidanson.vscode-markdownlint",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
+}
