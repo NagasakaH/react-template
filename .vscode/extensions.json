@@ -1,12 +1,14 @@
 {
-    "recommendations": [
-        "ms-vscode-remote.remote-containers",
-        "eamodio.gitlens",
-        "oderwat.indent-rainbow",
-        "shd101wyy.markdown-preview-enhanced",
-        "joffreykern.markdown-toc",
-        "davidanson.vscode-markdownlint",
-        "esbenp.prettier-vscode",
-        "streetsidesoftware.code-spell-checker"
-    ]
+  "recommendations": [
+    "ms-vscode-remote.remote-containers",
+    "eamodio.gitlens",
+    "oderwat.indent-rainbow",
+    "shd101wyy.markdown-preview-enhanced",
+    "joffreykern.markdown-toc",
+    "davidanson.vscode-markdownlint",
+    "esbenp.prettier-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "dbaeumer.vscode-eslint",
+    "ms-azuretools.vscode-docker"
+  ]
 }

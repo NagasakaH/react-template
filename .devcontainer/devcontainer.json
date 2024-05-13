@@ -5,12 +5,21 @@
   "workspaceFolder": "/work",
   "remoteUser": "node",
   "postStartCommand": "npm install",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker": {
+      "version": "latest",
+      "moby": true
+    }
+  },
   "customizations": {
     "vscode": {
       "settings": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "terminal.integrated.defaultProfile.linux": "bash",
-        "editor.formatOnSaveMode": "modifications"
+        "editor.formatOnSaveMode": "modifications",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": false
       },
       "extensions": [
         "hediet.vscode-drawio",
@@ -21,7 +30,9 @@
         "shd101wyy.markdown-preview-enhanced",
         "joffreykern.markdown-toc",
         "davidanson.vscode-markdownlint",
-        "streetsidesoftware.code-spell-checker"
+        "streetsidesoftware.code-spell-checker",
+        "dbaeumer.vscode-eslint",
+        "ms-azuretools.vscode-docker"
       ]
     }
   }
